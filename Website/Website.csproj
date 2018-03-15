@@ -66,12 +66,6 @@
     <Reference Include="Rainbow.Storage.Yaml, Version=1.3.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Rainbow.Storage.Yaml.1.3.1\lib\net45\Rainbow.Storage.Yaml.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Kernel">
-      <HintPath>..\..\..\..\Libraries\Sitecore8.x\Sitecore.Kernel.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Mvc">
-      <HintPath>..\..\..\..\Libraries\Sitecore8.x\Sitecore.Mvc.dll</HintPath>
-    </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -108,6 +102,12 @@
     <Reference Include="Unicorn, Version=3.2.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Unicorn.Core.3.2.0\lib\net45\Unicorn.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>..\Libraries\Sitecore8.x\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Mvc">
+      <HintPath>..\Libraries\Sitecore8.x\Sitecore.Mvc.dll</HintPath>
+    </Reference>	
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Web.Infrastructure">
@@ -145,7 +145,9 @@
     <Content Include="App_Data\Unicorn\SitecoreItemsTest\Content\content\DerivedFromTestItem.yml" />
     <Content Include="App_Data\Unicorn\SitecoreItemsTest\Content\content\Home.yml" />
     <None Include="packages.config" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\TestPage.cshtml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">

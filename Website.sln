@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.csproj", "{6D9E7627-C1D3-4AD7-999D-6000A5A80104}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{FA7E24CA-DF39-48AA-9A9B-408D76D08783}"
+	ProjectSection(SolutionItems) = preProject
+		Libraries\Sitecore8.x\Sitecore.Kernel.dll = Libraries\Sitecore8.x\Sitecore.Kernel.dll
+		Libraries\Sitecore8.x\Sitecore.Mvc.dll = Libraries\Sitecore8.x\Sitecore.Mvc.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
